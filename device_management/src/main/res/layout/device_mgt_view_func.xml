@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
-
+<!--设备管理主界面-->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -11,7 +11,7 @@
         android:paddingLeft="20dp"
         android:layout_marginTop="60dp"
         android:textSize="18sp" />
-
+<!--设备列表-->
     <TextView
         style="@style/item_func"
         android:id="@+id/tvDeviceList"
@@ -22,7 +22,7 @@
         android:layout_height="1dp"
         android:layout_marginLeft="20dp"
         android:background="#FF888888" />
-
+<!--zigbee网关列表-->
     <TextView
         style="@style/item_func"
         android:id="@+id/tv_zb_gateway_list"
@@ -33,7 +33,7 @@
         android:layout_height="1dp"
         android:layout_marginLeft="20dp"
         android:background="#FF888888" />
-
+<!--群组列表-->
     <TextView
         style="@style/item_func"
         android:id="@+id/tv_group"

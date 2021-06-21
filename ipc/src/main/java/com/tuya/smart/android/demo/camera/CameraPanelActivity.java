@@ -64,7 +64,7 @@ import static com.tuya.smart.android.demo.camera.utils.Constants.MSG_VIDEO_RECOR
 import static com.tuya.smart.camera.ipccamerasdk.utils.CameraConstant.SDK_PROVIDER_V1;
 
 /**
- * @author chenbj
+ * @author chenbj，相机面板
  */
 public class CameraPanelActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -673,7 +673,7 @@ public class CameraPanelActivity extends AppCompatActivity implements View.OnCli
         getMenuInflater().inflate(R.menu.menu_camera_panel, menu);
         return true;
     }
-
+//移除设备按钮
     public boolean onOptionsItemSelected(MenuItem item) {
         if (item.getItemId() == R.id.menu_remove_device) {
             AlertDialog dialog = new AlertDialog.Builder(this)

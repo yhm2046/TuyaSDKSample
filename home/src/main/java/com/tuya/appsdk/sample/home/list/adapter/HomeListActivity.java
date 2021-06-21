@@ -42,13 +42,13 @@ public class HomeListActivity extends AppCompatActivity {
     Toolbar mToolbar;
     HomeListAdapter adapter;
     RecyclerView rvList;
-    MaterialToolbar topAppBar;
+    MaterialToolbar topAppBar;  //导航
     public int type;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.home_activity_list);
+        setContentView(R.layout.home_activity_list);    //RecyclerView 列表
 
         initView();
         initData();

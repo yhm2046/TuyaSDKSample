@@ -42,7 +42,7 @@ import java.util.List;
 import kotlin.collections.CollectionsKt;
 
 /**
- * Device Management initial device data sample
+ * Device Management initial device data sample,初始化设备列表
  *
  * @author chuanfeng <a href="mailto:developer@tuya.com"/>
  * @since 2021/2/21 9:58 AM
@@ -61,7 +61,7 @@ public class DeviceMgtListActivity extends AppCompatActivity {
         type = getIntent().getIntExtra("type", 0);
 
 
-        Toolbar toolbar = findViewById(R.id.topAppBar);
+        Toolbar toolbar = findViewById(R.id.topAppBar); //标题栏，移除设备
         setSupportActionBar(toolbar);
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override

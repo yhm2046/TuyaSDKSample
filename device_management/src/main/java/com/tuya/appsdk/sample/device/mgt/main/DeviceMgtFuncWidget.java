@@ -36,9 +36,9 @@ public class DeviceMgtFuncWidget {
         this.initView(rootView);
         return rootView;
     }
-
+//初始化设备列表
     private void initView(final View rootView) {
-        // Device list
+        // Device list，设备列表点击事件
         rootView.findViewById(R.id.tvDeviceList).setOnClickListener(v -> {
             if ((HomeModel.getCurrentHome(v.getContext()) == 0)) {
                 Toast.makeText(
